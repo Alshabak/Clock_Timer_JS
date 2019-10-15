@@ -1,0 +1,66 @@
+body{
+
+    padding: 0;
+
+    background-color: black;
+    color:greenyellow ;
+    font-family: "Lucida Console",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+body .stop-watch{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 7rem  1rem;
+
+}
+
+
+body .stop-watch button{
+    width: 600px;
+    text-align: center;
+
+}
+
+
+body .stop-watch-button button:first-child{
+    border: 1px outset greenyellow;
+    border-radius: 5px;
+    margin-right: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+
+
+
+}
+
+
+
+body .stop-watch-button button:last-child{
+    border: 1px outset gold;
+    border-radius: 5px;
+    margin-right: 2rem;
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+
+
+
+}
+
+
